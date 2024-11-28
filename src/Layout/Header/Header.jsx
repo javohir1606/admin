@@ -22,7 +22,7 @@ export const Header = () => {
                 className="font-medium text-[12px] leading-[190%] text-[#2a43d4]"
               >
                 We're hiring
-              </Link>
+              </Link> 
             </div>
           </div>
 
