@@ -22,10 +22,11 @@ export const Header = () => {
                 className="font-medium text-[12px] leading-[190%] text-[#2a43d4]"
               >
                 We're hiring
-              </Link> 
+              </Link>
             </div>
           </div>
 
+          <div className="flex justify-between gap-[60px]">
             <ul className="hidden md:flex hover:text-blue-500 gap-10">
               <li className="">
                 <a
@@ -76,6 +77,7 @@ export const Header = () => {
                 </button>
               </li>
             </ul>
+          </div>
 
           <div className="lg:hidden sm:hidden">
             <div onClick={toggleMenu}>
